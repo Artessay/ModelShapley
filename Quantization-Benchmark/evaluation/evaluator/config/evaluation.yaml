@@ -1,0 +1,5 @@
+data:
+  path: ./results/mmlu/Qwen2.5-7B-Instruct.parquet
+  response_key: responses
+  data_source_key: data_source
+  reward_model_key: reward_model

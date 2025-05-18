@@ -1,0 +1,33 @@
+{
+    "question": "Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.",
+    "subject": "abstract_algebra",
+    "choices": [
+        "8",
+        "2",
+        "24",
+        "120"
+    ],
+    "answer": 2,
+    "data_source": "cais/mmlu",
+    "prompt": [
+        {
+            "content": "The following is a multiple choice question. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+            "role": "system"
+        },
+        {
+            "content": "Question:\nLet p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.\nOptions:\nA. 8\nB. 2\nC. 24\nD. 120",
+            "role": "user"
+        }
+    ],
+    "ability": "knowledge",
+    "reward_model": {
+        "ground_truth": "C",
+        "style": "rule"
+    },
+    "extra_info": {
+        "answer": "The answer is (C)",
+        "index": 1,
+        "question": "Question:\nLet p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.\nOptions:\nA. 8\nB. 2\nC. 24\nD. 120",
+        "split": "test"
+    }
+}

@@ -1,0 +1,8 @@
+data:
+  path: ./data/mmlu/test.parquet
+  output_path: ./results/mmlu/Qwen2.5-7B-Instruct.parquet
+  prompt_key: prompt
+  response_key: responses
+
+model:
+  path: /data/Qwen/Qwen2.5-7B-Instruct
